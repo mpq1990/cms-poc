@@ -1,0 +1,168 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "hjKYmYi6HMwK6TRyk7ew5R",
+      "projectApiToken": "L5kqyh9xqKCqpdc8gqCglVcLZTxdkkP1Dt9pLUlWpyKVItIbbXr5272ePgMpZZiezhSe0AIOuQB353jQnw",
+      "projectName": "plasmic-cms",
+      "version": "6.12.0",
+      "cssFilePath": "plasmic/plasmic_cms/plasmic_plasmic_cms.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/plasmic_cms/PlasmicGlobalContextsProvider.tsx",
+      "codeComponents": [
+        {
+          "id": "w6HdOz-Pcn",
+          "name": "CmsRowField",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "Ds6UdKRHmq",
+          "name": "CmsRowLink",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "dj_Vc2QmFA",
+          "name": "CmsRowImage",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "r3UO4W-xcR",
+          "name": "CmsRowFieldValue",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "OREVbGCcgN",
+          "name": "CmsCredentialsProvider",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "8N9-WfZSaq",
+          "name": "CmsQueryRepeater",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        }
+      ]
+    },
+    {
+      "projectId": "bsdq7xoP2pzFcwsFmrBqbQ",
+      "projectApiToken": "tPf0jjYweSYrKwE56p0Y7hpfsi4p5F2iXPJ8mVdGyYATyClooN3Kwzr1422GIJv5dqB7z8Px9ATNrWwd4QGg",
+      "projectName": "Majid CMS",
+      "version": "latest",
+      "cssFilePath": "plasmic/majid_cms/plasmic_majid_cms.module.css",
+      "components": [
+        {
+          "id": "U8q5q9cPYjI_",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "bsdq7xoP2pzFcwsFmrBqbQ",
+          "renderModuleFilePath": "plasmic/majid_cms/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/majid_cms/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "ULVeuTxZEp",
+          "name": "Aboutus",
+          "type": "managed",
+          "projectId": "bsdq7xoP2pzFcwsFmrBqbQ",
+          "renderModuleFilePath": "plasmic/majid_cms/PlasmicAboutus.tsx",
+          "importSpec": {
+            "modulePath": "../pages/aboutus.tsx"
+          },
+          "cssFilePath": "plasmic/majid_cms/PlasmicAboutus.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "apJy6ukxCAgZ",
+          "name": "Icon29Icon",
+          "moduleFilePath": "plasmic/majid_cms/icons/PlasmicIcon__Icon29.tsx"
+        },
+        {
+          "id": "Wfp_Xo9VW0xk",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/majid_cms/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "VDlxFkaX2KjV",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/majid_cms/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "M1zLUtYzy300",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/majid_cms/icons/PlasmicIcon__Icon3.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "2JIpYt3UFl9q",
+          "name": "image",
+          "filePath": "../public/plasmic/majid_cms/images/image.svg"
+        },
+        {
+          "id": "Eaa3aR9W6GLF",
+          "name": "image 2",
+          "filePath": "../public/plasmic/majid_cms/images/image2.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/majid_cms/PlasmicGlobalContextsProvider.tsx",
+      "codeComponents": [
+        {
+          "id": "3MU6SbP8v6",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "CAPV2pBdVI",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "qh_VEIUW7DoWy",
+        "name": "Screen",
+        "projectId": "bsdq7xoP2pzFcwsFmrBqbQ",
+        "contextFilePath": "plasmic/majid_cms/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.216",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.216/dist/plasmic.schema.json"
+}
